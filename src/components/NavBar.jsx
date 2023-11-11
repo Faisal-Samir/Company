@@ -12,9 +12,9 @@ const NavBar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to='/'>Home</Link></li>
-                            <li><Link to=''>About us</Link></li>
-                            <li><Link to=''>Contact us</Link></li>
-                            <li><Link to=''>Projects</Link></li>
+                            <li><Link to='/aboutUs'>About us</Link></li>
+                            <li><a href='#contactUs'>Contact us</a></li>
+                            <li><Link to='/projects'>Projects</Link></li>
                         </ul>
                     </div>
                     <Link to='/'><h1 className="normal-case text-xl font-bold ">AATradeInternational</h1></Link>
@@ -22,9 +22,9 @@ const NavBar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex space-x-5 px-1">
                         <li><Link to='/'>Home</Link></li>
-                        <li><Link to=''>About us</Link></li>
-                        <li><Link to=''>Contact us</Link></li>
-                        <li><Link to=''>Projects</Link></li>
+                        <li><Link to='/aboutUs'>About us</Link></li>
+                        <li><a href='#contactUs'>Contact us</a></li>
+                        <li><Link to='/projects'>Projects</Link></li>
                     </ul>
                 </div>
             </div>
